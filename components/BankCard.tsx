@@ -2,7 +2,7 @@ import { formatAmount } from '@lib/utils'
 import Image from "next/image"
 import Link from "next/link"
 
-const BankCard = ({account,userName,showBalance=
+const BankCard = ({account,userName, showBalance=
 true }:CreditCardProps) => {
   return (
     <div className="flex flex-col">

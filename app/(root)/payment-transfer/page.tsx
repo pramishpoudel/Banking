@@ -1,9 +1,9 @@
 
-const Transfer = () => {
+const TransactionHistory = () => {
   return (
-    <div>Transfer</div>
+    <div>TransactionHistory</div>
   )
 }
 
-export default Transfer
+export default TransactionHistory
 
