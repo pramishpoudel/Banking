@@ -1,6 +1,6 @@
-import HeaderBox from '@components/HeaderBox'
-import TotalBalanceBox from '@components/TotalBalanceBox'
-import RightSidebar from "@components/RightSidebar"
+import HeaderBox from '@components/HeaderBox';
+import RightSidebar from "@components/RightSidebar";
+import TotalBalanceBox from '@components/TotalBalanceBox';
 
 const Home = () => {
   const loggedIn = { firstName: 'PRAMISH', lastName: 'POUDEL',email:"pramishpoudel502@gmail.com"};
@@ -26,8 +26,8 @@ const Home = () => {
        </div>
        <RightSidebar 
        user={loggedIn}
-       transaction={[]}
-       banks={[]}
+       transactions={[]}
+       banks={[{currentBalance:11.11},{currentBalance:22.22}]}
        />
      </section>
    )
